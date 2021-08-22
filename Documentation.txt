@@ -1,0 +1,33 @@
+
+Project 5 Documentation
+
+main.java
+saveChanges - take in list returns array of data O(n)
+addStudentSorted - adds a student to a sorted arraya and returns array O(n^2)
+seatchById - searches array for student and returns student O(n)
+searchByName - seatches array for student with binary search and returns student O(lgn)
+deleteStudentByIDNo -deletes a student from array by Id and returns the array O(n)
+saveChanges - displays info from array onto text file O(n)
+finalize - displays info from array onto text file and from Queue on to another text file O(n)
+addToHash - adds Student to hash table O(1)
+deleteFromHash - deletes Student from hash table O(1)
+seatchFromHash - searches for Student in hash table and returns boolean if found or not O(1)
+
+BinarySearchTree.java
+insert - Takes a student and a bnode and a recursively inserts a student to the bst O(lgn), worst case O(n)
+delete - Takes a student and a bnode and a recursively deletes a student from the bst O(lgn), worst case O(n)
+search - Takes a student and a bnode recursively searches for a Student from the bst O(lgn), worst case O(n)
+inOrder - Takes a bnode and Recursively traverses through a bst left - root - right and returns an array with the Students O(n)
+preOrder - Takes a bnode and Recursively traverses through a bst root - left - right and prints ou Students as it goes O(n)
+postOrder - Takes a bnode and Recursively traverses through a bst left - right - root and prints out Students as it goes O(n)
+
+LinkedStudentList.java
+isEmpty - returns true if list empty and false if not O(1)
+insertSorted - takes a Student and inserts it in it's ordered position by traversing the linked list O(n)
+delete - takes a Student and traverses through linked list until Student found or not there, then deletes the Student O(n)
+
+MyQueue.java
+isEmpty - returns true if queue empty and false if not O(1)
+deQ - removes first student of queue and returns its data
+enQ - takes a student as a parameter and ends to the end of the queue O(1)
+peek - returns the first element of the queue O(1)
